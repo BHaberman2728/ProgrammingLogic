@@ -67,16 +67,19 @@ class Program
         Console.WriteLine("The remainder of (5 + 12) / 2 is " + modTwo);
 
         // Step 8
-        float myFloat = 1.123456789;
-        double myDouble = 1.123456789;
+        float myFloat = 1.123456789F;
+        double myDouble2 = 1.123456789D;
 
         Console.WriteLine("Decimal stored as a float: " + myFloat);
-        Console.WriteLine("Decimal stored as a double: " + myDouble);
+        Console.WriteLine("Decimal stored as a double: " + myDouble2);
 
         // Step 9
         int aVar = 10;
-        Console.WriteLine("10 + 1 = " + aVar++);
-        Console.WriteLine("10 - 1 = " + aVar--);
+        aVar++;
+        Console.WriteLine(aVar);
+        aVar = 10;
+        aVar--;
+        Console.WriteLine(aVar);
 
     }
 
