@@ -23,7 +23,7 @@ class Program
         Console.WriteLine("My favorite number is " + myFavNum + ".");
         Console.WriteLine("My favorite programming language is " + myFavLang + ".");
         Console.WriteLine("I have written " + myProg + " programs before this Lab.");
-        // bool Console.WriteLine("");
+        Console.WriteLine("It is " + myExp + " that I have experience programming.");
 
         // Step 4
         const string schoolName = "Cleveland State University";
