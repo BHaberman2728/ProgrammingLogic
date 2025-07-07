@@ -3,7 +3,6 @@ using System.Reflection.Metadata.Ecma335;
 
 namespace Lab1;
 
-[DebuggerDisplay($"{{{nameof(GetDebuggerDisplay)}(),nq}}")]
 class Program
 {
     static void Main(string[] args)
@@ -80,5 +79,5 @@ class Program
         Console.WriteLine("10 - 1 = " + aVar--);
 
     }
-   
+
 }
