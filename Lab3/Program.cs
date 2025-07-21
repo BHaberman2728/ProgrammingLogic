@@ -54,16 +54,19 @@ class Program
 
         // Problem 6: Days of the Week (1–7)
 
-        string[] daysofweek = new string[7];
-        daysofweek[0] = "Monday";
-        daysofweek[1] = "Tuesday";
-        daysofweek[2] = "Wednesday";
-        daysofweek[3] = "Thursday";
-        daysofweek[4] = "Friday";
-        daysofweek[5] = "Saturday";
-        daysofweek[6] = "Sunday";
+        string[] daysofweek = new string[7] { "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Satuday", "Sunday" };
 
         Console.WriteLine("Please enter a number 1-7: ");
-        
+
+        int input = Convert.ToInt32(Console.ReadLine());
+        Console.WriteLine("The day of the week is: " + daysofweek[input - 1]);
+
+        // Problem 7: Favorite Books and Authors
+
+        // Problem 8: Temperature Tracker
+
+        // Problem 9: Reverse Countdown
+
+
     }   
 }
