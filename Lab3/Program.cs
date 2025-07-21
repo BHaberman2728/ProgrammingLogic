@@ -59,9 +59,24 @@ class Program
         Console.WriteLine("Please enter a number 1-7: ");
 
         int input = Convert.ToInt32(Console.ReadLine());
-        Console.WriteLine("The day of the week is: " + daysofweek[input - 1]);
+
+        if (input >= 1 && input <= 7)
+        {
+            Console.WriteLine("The day of the week is: " + daysofweek[input - 1]);
+        }
+
+        else
+        {
+            Console.WriteLine("Invalid input.");
+        }
 
         // Problem 7: Favorite Books and Authors
+
+        string[] booktitles = new string[3] { "The Hunger Games", "Lord of the Rings", "The Great Gatsby" };
+        string[] authors = new string[3] { "Suzanne Collins", "J.R.R. Tolkien", "F. Scott Fitzgerald" };
+
+        
+
 
         // Problem 8: Temperature Tracker
 
