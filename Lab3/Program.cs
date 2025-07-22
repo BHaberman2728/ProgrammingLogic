@@ -75,8 +75,10 @@ class Program
         string[] booktitles = new string[3] { "The Hunger Games", "Lord of the Rings", "The Great Gatsby" };
         string[] authors = new string[3] { "Suzanne Collins", "J.R.R. Tolkien", "F. Scott Fitzgerald" };
 
-        
-
+        for (int i = 0; i < 3; i++)
+        {
+            Console.WriteLine(booktitles[] + "by" + authors[]);
+        }
 
         // Problem 8: Temperature Tracker
 
