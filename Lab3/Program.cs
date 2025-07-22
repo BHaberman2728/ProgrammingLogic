@@ -72,8 +72,8 @@ class Program
 
         // Problem 7: Favorite Books and Authors
 
-        string[] booktitles = new string[3] { "The Hunger Games", "Lord of the Rings", "The Great Gatsby" };
-        string[] authors = new string[3] { "Suzanne Collins", "J.R.R. Tolkien", "F. Scott Fitzgerald" };
+        string[] booktitles = new string[3] { "Man's Search for Meaning", "The Hunger Games", "The Shallows" };
+        string[] authors = new string[3] { "Viktor Frankl", "Suzanne Collins", "Nicholas Carr" };
 
         for (int i = 0; i < 3; i++)
         {
