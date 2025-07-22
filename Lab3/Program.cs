@@ -77,13 +77,34 @@ class Program
 
         for (int i = 0; i < 3; i++)
         {
-            Console.WriteLine(booktitles[] + "by" + authors[]);
+            Console.WriteLine(booktitles[i] + " by " + authors[i]);
         }
 
         // Problem 8: Temperature Tracker
 
+        int[] intArray = new int[5] { 35, 27, 81, 72, 53 };
+        Array.Sort(intArray);
+
+        Console.WriteLine("Sorted array: ");
+        foreach (int order in intArray)
+        {
+            Console.WriteLine(order + " ");
+        }
+
+        Console.WriteLine("The highest temperature is: " + intArray[4]);
+        Console.WriteLine("The lowest temperature is: " + intArray[0]);
+
         // Problem 9: Reverse Countdown
 
+        int[] fiveArray = new int[5] { 5, 4, 3, 2, 1 };
+
+        Array.Reverse(fiveArray);
+
+        Console.WriteLine("Reversed array: ");
+        foreach (int placement in fiveArray)
+        {
+            Console.WriteLine(placement + " ");
+        }
 
     }   
 }
